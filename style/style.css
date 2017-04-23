@@ -1,0 +1,67 @@
+/*公共css样式*/
+*{margin: 0;padding: 0;}
+.body{border: 1px solid #e9e7ef;font-size: 12px;color: #333;width: 960px;margin: 0 auto;}
+ul{list-style: none;}
+.clear{display: block;overflow: hidden;}
+a:link{color: #333;}
+a:visited{color: #333;}
+a:hover{color: red;}
+a:active{color: red;}
+a{text-decoration: none;}
+/*公共css样式*/
+
+.top{line-height: 34px;background-color: #e9e7ef;}
+.top div{float: left;}
+.top ul{float: right;}
+.top ul li{float: left;margin-left: 8px;padding: 0 8px 0 24px;}
+.icon_01{background-image: url(../image/top_icons.jpg);background-position: 0 0;background-repeat: no-repeat;}
+.icon_02{background-image: url(../image/top_icons.jpg);background-position: 0 -58px;background-repeat: no-repeat;}
+.icon_03{background-image: url(../image/top_icons.jpg);background-position: 0 -118px;background-repeat: no-repeat;}
+.icon_04{background-image: url(../image/top_icons.jpg);background-position: 0 -178px;background-repeat: no-repeat;}
+.icon_05{background-image: url(../image/top_icons.jpg);background-position: 0 -238px;background-repeat: no-repeat;}
+
+.search .logo_01{height: 80px;width: 214px;background-image: url(../image/logo01.jpg);margin-left: 10px;}
+.search div{float: left;}
+.search .form_01 form ul li{float: left;}
+.search .form_01{margin-left: 40px;margin-top: 30px;}
+.form_01 input{width: 200px;height: 18px;border: 1px solid red;}
+.form_01 a{display: block;color: #fff;font-weight: bold;width: 60px;text-align: center;line-height: 20px;background-color: #999;}
+
+.nav ul li{float: left;padding: 0 35px 0 35px;font-size: 16px;font-family: "黑体";}
+.nav{background-color: red;line-height: 40px;}
+.nav a:link{color: #fff;}
+.nav a:visited{color: #fff;}
+.nav a:hover{color: #fff;}
+.nav a:active{color: #fff;}
+
+.main{margin: 10px auto;}
+.main .main_left{width: 200px;float: left;margin-right: 5px;}
+.main .main_right{width: 748px;float: left;margin-left: 5px;}
+
+.company_01{border: 1px solid #e9e7ef;padding: 10px;}
+.company_01 h1{text-align: center;}
+.company_01 ul{margin-top: 50px;}
+.company_01 ul li{margin-top: 10px;}
+.company_01 ul li a{display: block;width: 110px;line-height: 30px;color: #fff;background-color:red; text-align: center;margin: 20px auto;}
+
+.classify{border: 1px solid #e9e7ef;margin-top: 10px;}
+.classify h1{font-size: 14px;color: #fff;background-color: red;line-height: 30px;}
+.classify ul li a{display: block;font-weight: bold;text-indent: 2em;line-height: 30px;}
+.classify ul li a:link{color: #000;}
+.classify ul li a:visited{color: #000;}
+.classify ul li a:hover{color: #000;background-color: #e9e7ef;}
+.classify ul li a:active{color: #000;}
+
+.company_02{border: 1px solid #e9e7ef;}
+.company_02 h1{font-size: 14px;color: #fff;background-color: red;line-height: 30px;text-indent: 1em;}
+.company_02 h1 a{display: block;float: right;margin-right: 5px;font-size: 12px;color: #fff;}
+.company_02 div{float: left;margin: 10px;}
+.company_02 .content_01{font-size: 12px;line-height: 25px;width: 398px;}
+
+.pro_01{border: 1px solid #e9e7ef;}
+.pro_01 h1{font-size: 14px;color: #fff;background-color: red;line-height: 30px;text-indent: 1em;}
+.pro_01 h1 a{display: block;float: right;margin-right: 5px;font-size: 12px;color: #fff;}
+.pro_01 ul li{float: left;margin: 10px 5px 10px 5px;width: 174px;border: 1px solid #e9e7ef;}
+
+.foot{border-top: 2px solid red;margin-top: 20px;}
+.foot div{margin: 15px;line-height: 20px;}
